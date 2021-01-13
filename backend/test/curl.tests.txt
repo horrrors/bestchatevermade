@@ -1,0 +1,2 @@
+registration = curl -d '{"nickname":"horrors", "email":"horrors973@gmail.com", "password": "truepassword"}' -H "Content-Type: application/json" -X POST http://localhost:3000/auth/register
+login = curl -d '{"email":"horrors973@gmail.com", "password": "truepassword"}' -H "Content-Type: application/json" -X POST http://localhost:3000/auth/login

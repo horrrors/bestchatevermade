@@ -1,0 +1,3 @@
+enum MemberTypes {
+  MEMBER = 'member',
+}
